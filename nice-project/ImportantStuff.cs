@@ -16,7 +16,17 @@ namespace NiceProject
 
         private int CalculateSumOf(IEnumerable<int> allNumbers)
         {
+<<<<<<< HEAD
             return allNumbers.Sum();
+=======
+            var sum = 0;
+            foreach (var number in allNumbers)
+            {
+                sum += number;
+            }
+
+            return sum;
+>>>>>>> Change for to foreach in sum calculator
         }
     }
 }
